@@ -142,7 +142,7 @@
          <key>name</key>
          <string>entity.name.character.fountain</string>
          <key>match</key>
-         <string>\n.[A-Z ().\-][A-Z0-9 ().\-]+</string>
+         <string>\n.[A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ ().\-][A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ0-9 ().\-]+</string>
       </dict>
 
       <!-- Dialogue -->
@@ -151,7 +151,7 @@
          <key>contentName</key>
          <string>string.other.dialogue.fountain</string>
          <key>begin</key>
-         <string>([A-Z ().\-][A-Z0-9 ().\-]+(\s*\^)?$)</string>
+         <string>([A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ ().\-][A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ0-9 ().\-]+(\s*\^)?$)</string>
          <key>end</key>
          <string>^$</string>
          <key>beginCaptures</key>
